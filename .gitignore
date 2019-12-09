@@ -1,0 +1,4 @@
+# Visual Studio ignored project folders
+.vs/
+bin/
+obj/
