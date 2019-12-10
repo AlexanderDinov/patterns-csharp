@@ -12,5 +12,7 @@ namespace AbstractFactory.Pattern.Factory
         IUIControl getButton();
         IUIControl getTextBox();
         IUIControl getComboBox();
+
+        IUIControl getLabel();
     }
 }

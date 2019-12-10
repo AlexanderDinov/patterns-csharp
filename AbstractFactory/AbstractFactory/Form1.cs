@@ -43,11 +43,13 @@ namespace AbstractFactory
             IUIControl button = factory.getButton();
             IUIControl textbox = factory.getTextBox();
             IUIControl combobox = factory.getComboBox();
+            IUIControl label = factory.getLabel();
 
             this.tbUIControls.Clear();
             this.tbUIControls.AppendText("Button type: " + button.getName() + Environment.NewLine);
             this.tbUIControls.AppendText("ComboBox type: " + combobox.getName() + Environment.NewLine);
             this.tbUIControls.AppendText("TextBox type: " + textbox.getName() + Environment.NewLine);
+            this.tbUIControls.AppendText("Label type: " + label.getName() + Environment.NewLine);
         }
     }
 }

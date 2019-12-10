@@ -13,6 +13,8 @@ namespace AbstractFactory.Pattern.Factory
 
         public IUIControl getComboBox() => new WindowsComboBox();
 
+        public IUIControl getLabel() => new WindowsLabel();
+
         public IUIControl getTextBox() => new WindowsTextBox();        
     }
 }

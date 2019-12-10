@@ -55,9 +55,11 @@
     <Compile Include="Pattern\Controls\IUIControl.cs" />
     <Compile Include="Pattern\Controls\LinuxButton.cs" />
     <Compile Include="Pattern\Controls\LinuxComboBox.cs" />
+    <Compile Include="Pattern\Controls\LinuxLabel.cs" />
     <Compile Include="Pattern\Controls\LinuxTextBox.cs" />
     <Compile Include="Pattern\Controls\WindowsButton.cs" />
     <Compile Include="Pattern\Controls\WindowsComboBox.cs" />
+    <Compile Include="Pattern\Controls\WindowsLabel.cs" />
     <Compile Include="Pattern\Controls\WindowsTextBox.cs" />
     <Compile Include="Pattern\Factory\IUIControlsFactory.cs" />
     <Compile Include="Pattern\Factory\LinuxUIFactory.cs" />
